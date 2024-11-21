@@ -10,7 +10,7 @@ module.exports = {
     filename: '<project-name>.user.js',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    static: path.join(__dirname, 'dist'),
   },
   proxyScript: {
     baseUrl: 'http://127.0.0.1:12345',
