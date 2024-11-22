@@ -4,7 +4,8 @@
   "description": "The **Bumble Next** userscript automatically processes contacts and messages, providing a dynamic UI modal to show status and control on Bumble.",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
     "webpack-userscript": "^3.2.2"
   }
 }
