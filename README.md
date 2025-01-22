@@ -32,7 +32,7 @@ To install the **Bumble Next** userscript:
 3. Under **URL**, paste the following URL to the userscript:
 
   ```
-  https://cdn.jsdelivr.net/gh/prokizzle/bumble-next/bumble-next.user.js
+  https://cdn.jsdelivr.net/gh/prokizzle/bumble-next/dist/main.user.js
   ```
 
 4. Click **Import** to load the userscript.
